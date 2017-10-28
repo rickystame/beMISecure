@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Parkrequest:</strong>
+  <%= @parkingevent.parkrequest %>
+</p>
+
+<p>
+  <strong>Parkallowed:</strong>
+  <%= @parkingevent.parkallowed %>
+</p>
+
+<p>
+  <strong>Parkcompleted:</strong>
+  <%= @parkingevent.parkcompleted %>
+</p>
+
+<p>
+  <strong>Getbikecompleted:</strong>
+  <%= @parkingevent.getbikecompleted %>
+</p>
+
+<%= link_to 'Edit', edit_parkingevent_path(@parkingevent) %> |
+<%= link_to 'Back', parkingevents_path %>
